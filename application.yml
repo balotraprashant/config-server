@@ -1,8 +1,6 @@
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: https://lkps-service-registry.herokuapp.com/eureka/
-  instance:
-    hostname: lkps-service-registry.herokuapp.com
+    serviceUrl:
+      defaultZone: http://lkps-service-registry.herokuapp.com/eureka/
+      non-secure-port: 80
+      secure-port: 443
