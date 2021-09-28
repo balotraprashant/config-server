@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: https://lkps-service-registry.herokuapp.com/
+      defaultZone: https://lkps-service-registry.herokuapp.com/eureka/
   instance:
     hostname: localhost
