@@ -5,4 +5,4 @@ eureka:
     service-url:
       defaultZone: https://lkps-service-registry.herokuapp.com/eureka/
   instance:
-    hostname: localhost
+    hostname: lkps-service-registry.herokuapp.com
