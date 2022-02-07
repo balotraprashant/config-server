@@ -1,6 +1,6 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://lkps-service-registry.herokuapp.com/eureka/
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:${eureka.server.port}}/eureka/
       non-secure-port: 80
       secure-port: 443
